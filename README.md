@@ -29,13 +29,13 @@ A modular first-person player controller for Unity with movement, sprinting, cro
 ## Requirements
 
 * Unity 2022.3 LTS or newer
-* Character Controller (Added automaticly)
+* Character Controller (Added automaticlly)
 * Input Manager (Legacy Input System)
 
 ## Installation
 
 1. Download or clone this repository.
-2. Copy the `PlayerController` folder into your Unity project's `Assets` folder.
+2. Copy the `PlayerController.cs`  into your Unity project's `Assets` folder.
 
 ## Setup
 
@@ -48,7 +48,7 @@ A modular first-person player controller for Unity with movement, sprinting, cro
 4. Create a LayerMask and assign the layers that should be detected as ceiling obstacles.<br>
 5. Assign the required objects and LayerMask in the Inspector.<br>
 
-The `Ceiling Check transform` should be placed above the player's head and used to detect obstacles when standing up from a crouch.<br>
+The `Ceiling Check Transform` should be placed above the player's head and used to detect obstacles when standing up from a crouch.<br>
 
 ![Inspector](Screenshots/demo-inspector.png)<br>
 
